@@ -10,7 +10,8 @@ import {connect} from 'react-redux';
     return (
       <div>
         <h3>Details for:</h3>
-        <div>{this.props.book.title}</div>
+        <div>Title: {this.props.book.title}</div>
+        <div>Page Count: {this.props.book.pages}</div>
       </div>
     );
   }
